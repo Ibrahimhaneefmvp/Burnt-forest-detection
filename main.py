@@ -4,7 +4,7 @@ import numpy as np
 house_priorities = {"blue": 2, "red": 1}
 
 # Load the image
-input_image = cv2.imread(r"C:\Users\irsha\Downloads\New folder\image_6.jpg")  # Replace with your image path
+input_image = cv2.imread(r"C:\Users\USER\Downloads\New folder\image_6.jpg")  # Replace with your image path
 
 # Define the color to be segregated (brown) and the replacement color (yellow)
 target_color_1 = np.array([0, 25, 45])  # Brown color in BGR
